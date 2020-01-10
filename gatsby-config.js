@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Gelasio`, `Comfortaa`],
+        fonts: [`Artifika`, `Comfortaa`],
         display: "swap",
       },
     },

@@ -15,15 +15,15 @@ import Gallery from "../components/gallery"
 const IndexPage = () => (
   <Layout>
     <SEO Claudia Acham="Home" />
-    <div style={{ background: '#000', padding: 32, margin: 0, color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div className='wrapper'>
       <div style={{  display: 'flex', justifyContent: 'space-between',  width: 900 }}>
-        <div style={{ flex: 2, display: 'flex', alignItems: 'center'}}>
+        <div style={{ flex: 2, displazy: 'flex', alignItems: 'center'}}>
           <div>
             <h1 style={{ color: 'pink' }}>Beauty, Skincare  & more...</h1>
             <p>
               Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo. Vestibulum sed ante dignissim, eleifend urna nec, blandit eros.
             </p>
-            <button style={{ marginRight: 10, padding: 5, width: 200, background: 'transparent', color: '#fff', border: 'solid 0.1em #E94057' }}>Book your Experience</button>
+            <button className='action'>Book your Experience</button>
           </div>
         </div>
         <div style={{ maxWidth: 300, flex: 2}}>
