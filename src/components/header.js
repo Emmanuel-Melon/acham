@@ -2,6 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import { FaUser, FaGraduationCap, FaBrush } from 'react-icons/fa'
+
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -48,12 +51,12 @@ const Header = ({ siteTitle }) => (
               marginRight: 32
             }}
           >
-            Makeup
+            <FaBrush /> Makeup
           </Link>
         </li>
         <li>
           <Link
-            to="/"
+            to="/lessons"
             style={{
               color: `white`,
               textDecoration: `none`,
@@ -61,7 +64,7 @@ const Header = ({ siteTitle }) => (
               marginRight: 32
             }}
           >
-            Lessons
+            <FaGraduationCap /> Lessons
           </Link>
         </li>
       </ul>

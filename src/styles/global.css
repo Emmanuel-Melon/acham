@@ -41,9 +41,16 @@ button:hover, a:hover {
   align-items: center;
 }
 
+.brand {
+  padding: 8px;
+}
+
+.action {
+  padding: 0.5em;
+}
+
 .brand, .action {
   margin-right: 10px;
-  padding: 8px;
   width: 200px;
   background: transparent;
   color: #fff;
