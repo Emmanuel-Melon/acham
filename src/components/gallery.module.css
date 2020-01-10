@@ -1,0 +1,51 @@
+.container {
+    width: 1000px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    width: 500px;
+    padding: 0.5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.heading:before, .heading:after {
+    display: block;
+    content: "";
+    height: 5px;
+    width: 150px;
+    padding: 0.1em;
+    margin: 0.5em;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.item {
+    background: white;
+    max-width: 300px;
+    width: 30%;
+    margin: 0.7em;
+    padding: 0.4em;
+    border: solid 4px #000000;
+}
+
+.item:nth-child(odd) {
+    transform: rotate(3deg);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background: black;
+    padding: 1em;
+    color: #E94057;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    margin: 0;
+    padding: 0.3em;
+    color: pink;
+    line-height: 1.2;
+}

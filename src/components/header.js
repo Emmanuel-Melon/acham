@@ -5,8 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#000000`,
     }}
   >
     <div
@@ -14,19 +13,71 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: "flex",
+        justifyContent: "space-between",
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div>
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `#E94057`,
+              textDecoration: `none`,
+            }}
+          >
+            Makeup Artist
+          </Link>
+        </h1>
+      </div>
+      <ul
+        style={{
+          listStyleType: "none",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <li>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              padding: 8,
+              marginRight: 32
+            }}
+          >
+            Makeup
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              padding: 8,
+              marginRight: 32
+            }}
+          >
+            Store
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              padding: 8,
+              marginRight: 32
+            }}
+          >
+            Lessons
+          </Link>
+        </li>
+      </ul>
     </div>
   </header>
 )
