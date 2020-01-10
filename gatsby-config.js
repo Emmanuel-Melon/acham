@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Claudia Acham`,
+    title: `Acham`,
     description: `Claudia Acham is a Beatuty Expert & Makeup Artist from South Sudan. She offers bridal, editorial and day packages.`,
     author: `@gatsbyjs`,
   },
