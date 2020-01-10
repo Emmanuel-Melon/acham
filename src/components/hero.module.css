@@ -6,10 +6,12 @@
   display: flex;
   position: relative;
   top: 25px;
+  margin-left: 1em;
 }
 
 .model {
   margin: 0.2em;
+  border-radius: 0.3em;
 }
 
 .model:nth-child(even) {
@@ -23,5 +25,6 @@
 .image {
   height: auto;
   width: 100%;
-  border-bottom: solid 0.2em #E94057;
+  border-bottom: solid 0.3em #E94057;
+  border-radius: 0.2em;
 }
