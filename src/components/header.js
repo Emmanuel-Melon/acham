@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
       >
         <li>
           <Link
-            to="/"
+            to="/makeup"
             style={{
               color: `white`,
               textDecoration: `none`,
@@ -49,19 +49,6 @@ const Header = ({ siteTitle }) => (
             }}
           >
             Makeup
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              padding: 8,
-              marginRight: 32
-            }}
-          >
-            Store
           </Link>
         </li>
         <li>
