@@ -5,16 +5,39 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+/**
+ * components
+ */
+import Hero from "../components/hero"
+import Products from "../components/products"
+import Gallery from "../components/gallery"
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO Claudia Acham="Home" />
+    <div style={{ background: '#000', padding: 32, margin: 0, color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{  display: 'flex', justifyContent: 'space-between',  width: 900 }}>
+        <div style={{ flex: 2, display: 'flex', alignItems: 'center'}}>
+          <div>
+            <h1 style={{ color: 'pink' }}>Beauty, Skincare  & more...</h1>
+            <p>
+              Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo. Vestibulum sed ante dignissim, eleifend urna nec, blandit eros.
+            </p>
+            <button style={{ marginRight: 10, padding: 5, width: 200, background: 'transparent', color: '#fff', border: 'solid 0.1em #E94057' }}>Book your Experience</button>
+          </div>
+        </div>
+        <div style={{ maxWidth: 300, flex: 2}}>
+          <img src='https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60' alt='' style={{ width: '100%', height: 'auto', transform: 'rotate(2deg)' }}/>
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero />
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Products />
+    </div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Gallery />
+    </div>
   </Layout>
 )
 
