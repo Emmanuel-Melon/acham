@@ -21,13 +21,14 @@ const IndexPage = () => (
           <div>
             <h1 style={{ color: 'pink' }}>Beauty, Skincare  & more...</h1>
             <p>
-              Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo. Vestibulum sed ante dignissim, eleifend urna nec, blandit eros.
+              Salaam! Claudia Acham is a self taught MUA, mainly based in Juba, South Sudan & Nairobi, Kenya. </p>
+              <p>We’ve been  dealing in the makeup industry since 2017,  offering makeup services ranging from bridal, portraits and photo shoots, fashion shows, prom nights, commercial advertisements and more.
             </p>
             <button className='action'>Book your Experience</button>
           </div>
         </div>
         <div style={{ maxWidth: 300, flex: 2}}>
-          <img src='https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60' alt='' style={{ width: '100%', height: 'auto', transform: 'rotate(2deg)' }}/>
+          <img src='https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60' alt='' style={{ width: '100%', height: 'auto', transform: 'rotate(2deg)', margin: 8 }}/>
         </div>
       </div>
     </div>
