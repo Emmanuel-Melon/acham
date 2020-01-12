@@ -4,8 +4,6 @@
 
 .models {
   display: flex;
-  position: relative;
-  top: 25px;
   margin-left: 1em;
 }
 
@@ -16,6 +14,8 @@
 
 .model:nth-child(even) {
   max-width: 300px;
+  position: relative;
+  top: 25px;
 }
 
 .model:nth-child(odd) {
@@ -25,6 +25,53 @@
 .image {
   height: auto;
   width: 100%;
-  border-bottom: solid 0.3em #E94057;
+  border-top: solid 0.3em #E94057;
   border-radius: 0.2em;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .models {
+    display: none;
+  }
+
+  .model:nth-child(even) {
+    width: 100px;
+  }
+
+  .model:nth-child(odd) {
+    width: 100px;
+  }
+
+  .model {
+    display: none;
+    margin: 0.2em;
+    border-radius: 0.3em;
+  }
+
+  .model:nth-child(even) {
+    display: none;
+    max-width: 300px;
+  }
+
+  .model:nth-child(odd) {
+    display: none;
+    max-width: 250px;
+  }
+
+  .image {
+    display: none;
+    height: auto;
+    width: 100%;
+    border-top: solid 0.3em #E94057;
+    border-radius: 0.2em;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .hero {
+    display: none;
+  }
 }

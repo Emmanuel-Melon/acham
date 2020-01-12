@@ -5,8 +5,10 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div>
-        <h2 className={styles.heading}>Claudia Acham</h2>
-        <p className={styles.brief}>Acham is an independent South Sudanese Makeup Artist who specializes in bridal and everyday makeup. <br /> She's a self-taught artist who has turned her passion into a profession.</p>
+        <div className={styles.header}>
+          <h2 className={styles.heading}>Claudia Acham</h2>
+          <p className={styles.brief}>Acham is an independent South Sudanese Makeup Artist who specializes in bridal and everyday makeup. <br /> She's a self-taught artist who has turned her passion into a profession.</p>
+        </div>
         <div className={styles.links}>
           <div>
             <h3>Contact</h3>
