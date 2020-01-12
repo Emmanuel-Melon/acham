@@ -11,7 +11,6 @@ h6 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
   line-height: 1.1;
 }
 
@@ -38,7 +37,6 @@ button:hover, a:hover {
   color: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .brand {
@@ -56,81 +54,6 @@ button:hover, a:hover {
   color: #fff;
   border: solid 0.1em #E94057;
   border-radius: 0.3em;
-}
-
-
-/**
- * ----------------------------------------
- * animation heartbeat
- * ----------------------------------------
- */
-@-webkit-keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-}
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
 }
 
 
@@ -155,3 +78,69 @@ button:hover, a:hover {
   background: #555;
   cursor: pointer;
 }
+
+.content {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.profile-image {
+  max-width: 300px;
+  flex: 2;
+}
+
+.bio {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .profile-image {
+    max-width: 150px;
+    flex: 2;
+  }
+
+  .brand, .action {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .profile-image {
+    max-width: 150px;
+    flex: 2;
+  }
+
+  .brand, .action {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+
