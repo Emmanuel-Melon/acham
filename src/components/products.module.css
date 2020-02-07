@@ -1,6 +1,10 @@
 .container {
-  width: 70%;
+  width: 100%;
+  max-width: 1024px;
   margin-top: 1.5em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .products {
@@ -9,56 +13,50 @@
   align-items: center;
 }
 
-.product {
-  background: white;
-  transform: rotate(2deg);
-  margin: 0.5em;
-  width: 30%;
-  max-width: 350px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 0.3em;
-}
-
 .imgContainer {
   padding: 0;
-  border-radius: 0.3em;
 }
 
 .heading {
-  transform: rotate(2deg);
-  border-radius: 0.3em;
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.8);
   width: 46%;
   padding: 0.5em;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.heading:before, .heading:after {
+.heading:before,
+.heading:after {
   display: block;
   content: "";
   height: 5px;
   width: 50%;
   padding: 0.1em;
   margin: 0.5em;
-  background: #8A2387;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .productInfo {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .poster {
   height: auto;
   width: 100%;
-  border-radius: 0.3em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -79,9 +77,8 @@
     background: white;
     margin: 0.3em;
     width: 85%;
-    min-width:300px;
+    min-width: 300px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 0.3em;
   }
 
   .heading {
@@ -89,21 +86,29 @@
     justify-content: center;
     width: 90%;
     margin: 0 auto 0.5em;
-    transform: rotate(2deg);
   }
 
-  .heading:before, .heading:after {
-    transform: rotate(2deg);
+  .heading:before,
+  .heading:after {
     display: block;
     content: "";
     height: 5px;
     width: 25%;
     padding: 0.1em;
     margin: 0.2em;
-    background: #8A2387;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #8a2387; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
@@ -115,7 +120,6 @@
     width: 50%;
     max-width: 250px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 0.3em;
   }
 }
 
@@ -137,9 +141,8 @@
     background: white;
     margin: 0.3em;
     width: 85%;
-    min-width:300px;
+    min-width: 300px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 0.3em;
   }
 
   .heading {
@@ -147,33 +150,39 @@
     justify-content: center;
     width: 90%;
     margin: 0 auto 0.5em;
-    transform: rotate(2deg);
   }
 
-  .heading:before, .heading:after {
-    transform: rotate(2deg);
+  .heading:before,
+  .heading:after {
     display: block;
     content: "";
     height: 5px;
     width: 25%;
     padding: 0.1em;
     margin: 0.2em;
-    background: #8A2387;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #8a2387; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .product {
     background: white;
-    transform: rotate(2deg);
     margin: 0.5em;
     width: 50%;
     max-width: 350px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 0.3em;
   }
 }
 
@@ -188,36 +197,51 @@
   }
 
   .product {
-    transform: rotate(2deg);
     display: flex;
     flex-direction: column;
     background: white;
     margin: 0.3em;
-    width: 30%;
-    min-width:300px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 0.3em;
+    width: 33%;
+    min-width: 300px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transform: rotate(2deg);
   }
 
   .heading {
-    width: 40%;
-    margin: 0 auto 0.5em;
-    transform: rotate(2deg);
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .heading:before, .heading:after {
-    transform: rotate(2deg);
+  .heading:before,
+  .heading:after {
     display: block;
     content: "";
     height: 5px;
     width: 25%;
-    padding: 0.1em;
-    margin: 0.2em;
-    background: #8A2387;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    padding: 0.2rem;
+    margin: 0.2rem;
+    background: #8a2387; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #f27121,
+      #e94057,
+      #8a2387
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
-
+.more {
+  background: #e94057;
+  padding: 0.3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1rem;
+}

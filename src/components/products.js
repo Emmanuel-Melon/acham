@@ -23,7 +23,6 @@ const products = [
     name: "Everyday Glam",
     price: 80,
   },
-
 ]
 
 const Product = ({ product }) => {
@@ -36,6 +35,7 @@ const Product = ({ product }) => {
         <div>
           <h4>{product.name}</h4>
           <p>Starting at ${product.price}</p>
+          <button className={styles.more}>Learn More</button>
         </div>
       </div>
     </div>

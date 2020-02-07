@@ -1,13 +1,19 @@
-import React from 'react'
-import styles from './footer.module.css'
+import React from "react"
+import styles from "./footer.module.css"
+
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div>
         <div className={styles.header}>
-          <h2 className={styles.heading}>Claudia Acham</h2>
-          <p className={styles.brief}>Acham is an independent South Sudanese Makeup Artist who specializes in bridal and everyday makeup. <br /> She's a self-taught artist who has turned her passion into a profession.</p>
+          <h3 className={styles.heading}>Claudia Acham</h3>
+          <p className={styles.brief}>
+            Acham is an independent South Sudanese Makeup Artist who specializes
+            in bridal and everyday makeup. <br /> She's a self-taught artist who
+            has turned her passion into a profession.
+          </p>
         </div>
         <div className={styles.links}>
           <div>
@@ -39,10 +45,20 @@ const Footer = () => {
         <div className={styles.find}>
           <ul className={styles.social}>
             <li>
-              <img src='https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png' alt='facebook' />
+              <a href="www.instagram.com/junobeaut">
+                <FaInstagram size="2rem" className={styles.icon} />
+              </a>
             </li>
-            <li><img src='https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/twitter-512.png' alt='twitter' /></li>
-            <li><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png' alt='instagram' /></li>
+            <li>
+              <a href="https://m.youtube.com/Acham%20Claudia?uid=G7f9iJKOMAOSKGaSWk3lmQ">
+                <FaYoutube size="2rem" className={styles.icon} />
+              </a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com/achamdiit/">
+                <FaFacebook size="2rem" className={styles.icon} />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

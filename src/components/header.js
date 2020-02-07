@@ -2,8 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import { FaUser, FaGraduationCap, FaBrush } from 'react-icons/fa'
+import { FaUser, FaGraduationCap, FaBrush } from "react-icons/fa"
 
+import styled from "styled-components"
+
+const brand = styled.h1``
 
 const Header = ({ siteTitle }) => (
   <header
@@ -15,13 +18,14 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0.20rem`,
         display: "flex",
         justifyContent: "space-between",
+        alignItems: "center",
       }}
     >
       <div>
-        <h1 className='brand'>
+        <h1 className="brand">
           <Link
             to="/"
             style={{
@@ -48,7 +52,7 @@ const Header = ({ siteTitle }) => (
               color: `white`,
               textDecoration: `none`,
               padding: 8,
-              marginRight: 32
+              marginRight: 32,
             }}
           >
             <FaBrush /> Makeup
@@ -61,7 +65,7 @@ const Header = ({ siteTitle }) => (
               color: `white`,
               textDecoration: `none`,
               padding: 8,
-              marginRight: 32
+              marginRight: 32,
             }}
           >
             <FaGraduationCap /> Lessons
