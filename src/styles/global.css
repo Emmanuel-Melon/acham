@@ -21,14 +21,15 @@ li {
   font-family: "Comfortaa", Arial, Helvetica, sans-serif;
 }
 
-button, a {
-  transition: all .3s ease-in-out;
+button,
+a {
+  transition: all 0.3s ease-in-out;
 }
-button:hover, a:hover {
+button:hover,
+a:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
-
 
 .wrapper {
   background: #000;
@@ -40,22 +41,24 @@ button:hover, a:hover {
 }
 
 .brand {
-  padding: 8px;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  border: solid #e94057;
+  border-width: 0.2rem 0 0.2rem 0;
+  text-align: center;
 }
 
 .action {
   padding: 0.5em;
+  border: solid 0.2rem #e94057;
 }
 
-.brand, .action {
-  margin-right: 10px;
+.brand,
+.action {
   width: 200px;
   background: transparent;
   color: #fff;
-  border: solid 0.1em #E94057;
-  border-radius: 0.3em;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -69,7 +72,7 @@ button:hover, a:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #E94057;
+  background: #e94057;
   border-radius: 0.1em;
 }
 
@@ -91,8 +94,6 @@ button:hover, a:hover {
   justify-content: center;
   align-items: center;
 }
-
-
 
 .profile-image {
   max-width: 300px;
@@ -117,7 +118,8 @@ button:hover, a:hover {
     flex: 2;
   }
 
-  .brand, .action {
+  .brand,
+  .action {
     display: none;
   }
 }
@@ -134,13 +136,11 @@ button:hover, a:hover {
     flex: 2;
   }
 
-  .brand, .action {
+  .brand,
+  .action {
     display: none;
   }
 }
 
 @media (min-width: 1024px) {
-
 }
-
-

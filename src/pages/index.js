@@ -19,9 +19,11 @@ const IndexPage = () => (
       <div className="content">
         <div className="bio">
           <div>
-            <h1 style={{ color: "pink" }}>Beauty, Skincare & more...</h1>
+            <h1 style={{ color: "pink", textDecoration: "underline" }}>
+              Beauty, Skincare & more...
+            </h1>
             <p>
-              Salaam! Claudia Acham is a self taught MUA, mainly based in Juba,
+              Salaam! Claudia Acham is a professional MUA, mainly based in Juba,
               South Sudan & Nairobi, Kenya.{" "}
             </p>
             <p>
