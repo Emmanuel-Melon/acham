@@ -11,31 +11,31 @@ const brand = styled.h1``
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#000000`,
+      padding: "0.5rem",
+      background: "#000000",
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
+        marginTop: "0.5rem",
         padding: `0.20rem`,
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "center",
       }}
     >
       <div>
-        <h1 className="brand">
-          <Link
-            to="/"
-            style={{
-              color: `#E94057`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </h1>
+        <Link
+          to="/"
+          style={{
+            color: `#E94057`,
+            textDecoration: `none`,
+          }}
+          className="brand"
+        >
+          {siteTitle}
+        </Link>
       </div>
       <ul
         style={{
@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => (
               marginRight: 32,
             }}
           >
-            <FaBrush /> Makeup
+            Makeup
           </Link>
         </li>
         <li>
@@ -68,7 +68,7 @@ const Header = ({ siteTitle }) => (
               marginRight: 32,
             }}
           >
-            <FaGraduationCap /> Lessons
+            Lessons
           </Link>
         </li>
       </ul>

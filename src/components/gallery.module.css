@@ -77,7 +77,7 @@
 
   .item {
     width: 100%;
-    min-width: 300px;
+    max-width: 320px;
   }
 
   .item:nth-child(even) {
@@ -85,13 +85,14 @@
   }
 
   .item:nth-child(odd) {
-    transform: rotate(-1deg);
+    margin: 0.2rem auto;
+    transform: rotate(0deg);
   }
 
   .heading {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 96%;
     margin: 0 auto 0.5em;
   }
 
