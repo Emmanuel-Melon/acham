@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from './lessons.module.css'
+import styles from "./lessons.module.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,6 +10,11 @@ const LessonsPage = () => (
     <div className={styles.wrapper}>
       <div className={styles.header}>
         <h1>Learn the Art of Makeup</h1>
+        <p>
+          Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo.
+          Vestibulum sed ante dignissim, eleifend urna nec, blandit eros.
+        </p>
       </div>
       <div className={styles.body}>
         <div>

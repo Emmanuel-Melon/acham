@@ -1,18 +1,17 @@
 .wrapper {
-    width: 1024px;
-    background: #000000;
-    margin: 1.5em auto 1.5em;
-    border-radius: 0.5em;
-    color: white;
+  width: 1024px;
+  background: #000000;
+  margin: 1.5em auto 1.5em;
+  color: white;
 }
 
 .header {
-    padding: 2em;
-    color: pink;
+  padding: 2em;
+  color: pink;
 }
 
 .body {
-    background: white;
-    color: #3e3e3e;
-    padding: 2em;
+  background: white;
+  color: #3e3e3e;
+  padding: 2em;
 }
