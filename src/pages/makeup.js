@@ -35,14 +35,14 @@ const MakeupPage = () => (
     <SEO title="404: Not found" />
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <h1>Book an Incredible Makeup Experience</h1>
+        <h1 className={styles.main}>Book your Experience</h1>
         <p>
           Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo.
           Vestibulum sed ante dignissim, eleifend urna nec, blandit eros.
         </p>
       </div>
-      <div>
+      <div className={styles.upper}>
         <h3 className={styles.heading}>Choose a Plan</h3>
         <div className={styles.demo}>
           {products.map(product => {

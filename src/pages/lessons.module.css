@@ -1,5 +1,6 @@
 .wrapper {
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   background: #000000;
   margin: 1.5em auto 1.5em;
   color: white;
@@ -13,5 +14,20 @@
 .body {
   background: white;
   color: #3e3e3e;
-  padding: 2em;
+  padding: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .wrapper {
+    width: 96%;
+    max-width: 1024px;
+    background: #000000;
+    margin: 1.5em auto 1.5em;
+    color: white;
+    margin: 0.5rem auto;
+  }
+
+  .main {
+    font-size: 1.5rem;
+  }
 }

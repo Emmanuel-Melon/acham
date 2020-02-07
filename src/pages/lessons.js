@@ -9,7 +9,7 @@ const LessonsPage = () => (
     <SEO title="404: Not found" />
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <h1>Learn the Art of Makeup</h1>
+        <h1 className={styles.main}>Learn the Art of Makeup</h1>
         <p>
           Hi I’m Anony! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed vehicula augue vitae nibh porta mollis. Morbi nec pretium justo.
