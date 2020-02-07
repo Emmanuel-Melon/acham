@@ -25,16 +25,11 @@
 .image {
   height: auto;
   width: 100%;
-  border-top: solid 0.3em #E94057;
+  border-top: solid 0.3em #e94057;
   border-radius: 0.2em;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-
-  .models {
-    display: none;
-  }
-
   .model:nth-child(even) {
     width: 100px;
   }
@@ -63,15 +58,10 @@
     display: none;
     height: auto;
     width: 100%;
-    border-top: solid 0.3em #E94057;
+    border-top: solid 0.3em #e94057;
     border-radius: 0.2em;
   }
-
 }
 
 @media (min-width: 1024px) {
-
-  .hero {
-    display: none;
-  }
 }
